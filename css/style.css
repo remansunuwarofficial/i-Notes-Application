@@ -1,0 +1,54 @@
+/* // copright reman sunuwar github = https://www.github.com/remansunuwarofficial/ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header .heading{
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.container{
+    width: 90vw;
+}
+
+
+.textarea{
+    width: 100%;
+    height: 20vh;
+    resize: none;
+}
+
+.input{
+    width: 100%;
+    height: 4vh;
+}
+
+.itemsCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1180px){
+    #time, #date{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 998px){
+    #time, #date{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 787px){
+    #time, #date{
+        font-size: 10px;
+        /* color: ; */
+    }
+}
