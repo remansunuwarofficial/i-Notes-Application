@@ -6,7 +6,8 @@ var filesToCache = [
   '/js/index.js',
   '/js/app.js',
   '/img/moon-line.svg',
-  '/img/sun-warm.svg'
+  '/img/sun-warm.svg',
+  '/manifest.json'
 ];
 
 /* Start the service worker and cache all of the app's content */
